@@ -1,0 +1,77 @@
+body{
+    background-color: #000;
+    margin: auto;
+    text-align: center;
+    font-family: 'Mystery Quest', cursive;  
+    font-size: 32px;
+}
+h1{
+    color: rgb(119, 240, 67);
+    font-weight: bolder;
+   
+}
+.btn{
+    text-align: center;
+    font-family: 'Mystery Quest', cursive;  
+    color: black;
+    font-size: 24px;
+    font-weight: bolder;
+    background: linear-gradient(111.4deg, rgb(2, 255, 4) 18.4%, rgb(0, 232, 237) 100.2%);
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 20px;
+   
+}
+.btn:hover{
+    background: linear-gradient(to top, #007adf 0%, #00ecbc 100%);
+    color:white;
+}
+
+.stage{
+    color: rgb(119, 240, 67);
+    font-weight: bolder;
+    background: linear-gradient(68.7deg, rgb(29, 173, 235) 13.2%, rgb(137, 149, 250) 29.8%, rgb(229, 109, 212) 48.9%, rgb(255, 68, 128) 68.2%, rgb(255, 94, 0) 86.4%);
+    background-color: #2aabce;
+    font-size: 6rem;
+    padding: 10px; 
+    margin: auto;
+    width: 80%;
+    height:200px;
+    border-radius: 8px;
+}
+
+
+
+
+.focus-in-contract {
+	-webkit-animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes focus-in-contract {
+    0% {
+      letter-spacing: 1em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes focus-in-contract {
+    0% {
+      letter-spacing: 1em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
